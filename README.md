@@ -65,12 +65,12 @@ El guion abre institucional, diferencia sutilmente las dos líneas de servicio (
 
 ## 8. Checklist de criterios de aceptación
 
-- [ ] Sincronización labial natural (sin saltos bruscos).
-- [ ] Voz generada con IA e integrada al avatar (no grabación humana cruda).
-- [ ] Personaje Ana mantiene consistencia visual del M3.
-- [ ] Música integrada y nivelada al 15–20%.
-- [ ] Audio limpio (sin ruido de fondo → sin vibración de labios).
-- [ ] Pausas con gesto/parpadeo insertadas.
+- [✓] Sincronización labial natural (sin saltos bruscos).
+- [✓] Voz generada con IA e integrada al avatar (no grabación humana cruda).
+- [✓] Personaje Ana mantiene consistencia visual del M3.
+- [✓] Música integrada y nivelada al 15–20%.
+- [✓] Audio limpio (sin ruido de fondo → sin vibración de labios).
+- [✓] Pausas con gesto/parpadeo insertadas.
 
 ---
 
