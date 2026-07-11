@@ -2,7 +2,7 @@
 
 **Módulo 4 · Producción Multimedia Unificada (texto + imagen + voz + música)**
 Vocero: **Ana** (personaje de marca consistente, definido en Módulo 3)
-Plataforma de ensamble: **HeyGen** (plan gratuito)
+Plataforma de ensamble: **HeyGen**
 
 > Tagline de marca: *"No vendemos flores. Acompañamos con ellas."*
 
@@ -10,21 +10,21 @@ Plataforma de ensamble: **HeyGen** (plan gratuito)
 
 ## 1. Objetivo del entregable
 
-Generar una pieza de video-marketing profesional que unifique todos los activos de marca creados en módulos anteriores, integrando voz IA (ElevenLabs/TTS) y música (Suno) sobre el avatar consistente de **Ana** en HeyGen, para una comunicación **institucional general** de Coberturas Florales (ambas líneas: envío a domicilio y florería para cementerio).
+Generar una pieza de video-marketing profesional que unifique todos los activos de marca creados en módulos anteriores, integrando voz IA (ElevenLabs/TTS) y música (Suno) sobre el avatar consistente de **Anah** en HeyGen, para una comunicación **institucional general** de Coberturas Florales (ambas líneas: envío a domicilio y florería para cementerio).
 
 ## 2. Estructura del repositorio
 
 ```
 coberturas_florales_video/
 ├── assets/
-│   ├── ana_personaje.png            # Imagen consistente del personaje (M3)
-│   ├── ana_voz.mp3                  # Audio de voz IA (ElevenLabs / TTS)
-│   ├── musica_marca.mp3             # Música de fondo (Suno)
+│   ├── close-up_portrait_of_a_woman_202607011903.png            # Imagen consistente del personaje (M3)
+│   ├── ElevenLabs_2026-07-11T18_30_25_Anah.mp3                  # Audio de voz IA (ElevenLabs / TTS)
+│   ├── Petals at Dawn.mp3             # Música de fondo (Suno)
 │   ├── guion_ana_institucional.txt  # Guion vocero
 │   ├── voz_elevenlabs_prompts.txt   # Config y prompts de voz
 │   └── musica_suno_prompt.txt       # Prompt de música
 ├── output/
-│   └── coberturas_vocero_final.mp4  # Video final exportado (720p, con marca de agua = válido)
+│   └── Coberturas_Florales_-_Acompañamos_con_flores_-_v4_with_captions.mp4  # Video final exportado (720p, con marca de agua = válido)
 └── README.md
 ```
 
@@ -35,7 +35,7 @@ El guion abre institucional, diferencia sutilmente las dos líneas de servicio (
 
 ## 4. Descripción de la voz
 
-- **Herramienta:** ElevenLabs (voz de stock, plan gratis) o TTS gratuito (Edge "Leer en voz alta" es-AR / TTSMaker).
+- **Herramienta:** ElevenLabs.
 - **Perfil buscado:** mujer ~38 años, timbre medio-cálido, empático, no comercial.
 - **Ajustes clave:** Stability 55–65%, Style bajo (15–25%) para calidez natural.
 - Detalle completo en `assets/voz_elevenlabs_prompts.txt`.
@@ -49,10 +49,10 @@ El guion abre institucional, diferencia sutilmente las dos líneas de servicio (
 
 ## 6. Proceso de sincronización en HeyGen
 
-1. **Photo Avatar:** subir `ana_personaje.png` (o usar avatar de stock similar a Ana).
-2. **Upload Audio:** cargar `ana_voz.mp3` en lugar de la voz por defecto de HeyGen (controla tono y acento).
+1. **Photo Avatar:** subir `close-up_portrait_of_a_woman_202607011903.png.
+2. **Upload Audio:** cargar `ElevenLabs_2026-07-11T18_30_25_Anah.mp3`.
 3. **Precision / lip-sync:** activar el modo de precisión disponible para que los visemas coincidan con la dicción.
-4. **Música de fondo:** integrar `musica_marca.mp3` al 15–20% de volumen, con fade-in/out de 2s.
+4. **Música de fondo:** integrar `Petals at Dawn.mp3` al 15–20% de volumen, con fade-in/out de 2s.
 5. **Background:** fondo coherente con el manual de identidad visual (M3) — paleta salvia/marfil, cálido y neutro.
 6. **Gestos:** aprovechar las pausas del guion para parpadeo y micro-movimientos de cabeza (evita el efecto "avatar inmortal").
 
