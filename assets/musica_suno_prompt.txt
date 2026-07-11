@@ -1,0 +1,27 @@
+COBERTURAS FLORALES — MÚSICA DE MARCA (Suno / Udio, plan gratis)
+================================================================
+
+PROMPT PRINCIPAL (Suno)
+"Gentle instrumental, warm acoustic guitar and soft piano, subtle
+strings, emotional but hopeful, unobtrusive background music for a
+floral brand, tender and serene, no vocals, cinematic, 60 seconds,
+Latin American warmth."
+
+STYLE TAGS
+acoustic, ambient, cinematic, emotional, soft piano, no vocals, warm
+
+PARÁMETROS
+- Instrumental: ON (sin voz — no debe competir con Ana)
+- Duración: ~60s
+- Sin drops ni percusión fuerte: debe fluir parejo bajo la locución.
+
+USO Y ATRIBUCIÓN
+- Plan gratis Suno = uso NO comercial + atribución a Suno.
+- Para trabajo académico: perfecto. Anotar en README el crédito.
+
+NIVELACIÓN EN HEYGEN / CAPCUT
+- Volumen de música al 15–20% respecto de la voz de Ana.
+- Fade-in 2s al inicio, fade-out 2s en el cierre del tagline.
+
+ARCHIVO DE SALIDA ESPERADO
+- assets/musica_marca.mp3

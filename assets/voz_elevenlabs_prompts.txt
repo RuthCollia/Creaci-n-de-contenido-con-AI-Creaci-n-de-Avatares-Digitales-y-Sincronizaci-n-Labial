@@ -1,0 +1,26 @@
+COBERTURAS FLORALES — CONFIGURACIÓN DE VOZ (ElevenLabs / TTS gratuito)
+================================================================
+
+VOZ RECOMENDADA (plan gratis, voces de stock)
+- Buscar voz femenina en español latino/rioplatense, timbre medio-cálido.
+- Sugeridas en ElevenLabs stock: "Sarah" o "Matilda" (ajustar acento) — o voz ES de Edge "Elena / Dalia".
+- Perfil de Ana: mujer ~38 años, voz serena, empática, no comercial ni estridente.
+
+AJUSTES DE MODELO (ElevenLabs)
+- Stability: 55–65%  (firmeza emocional sin robotizar)
+- Similarity / Clarity: 75%
+- Style Exaggeration: 15–25% (bajo: queremos calidez natural, no dramatismo)
+- Speaker Boost: ON
+
+DICCIÓN Y PAUSAS
+- Insertar pausas con puntos suspensivos "…" y saltos de línea donde el guion marca [PAUSA].
+- Bloque cementerio ("y también en el silencio…") leído más lento y bajo.
+- Tagline final: "No vendemos flores. Acompañamos con ellas." — leído lento, con punto fuerte tras "flores".
+
+ALTERNATIVA GRATUITA VÁLIDA (si se agota el cupo)
+- Microsoft Edge "Leer en voz alta" → voz es-AR "Elena" o "Tomás".
+- TTSMaker → voz español Argentina.
+- Exportar a .mp3 o .wav limpio (sin ruido de fondo) para evitar vibración de labios en HeyGen.
+
+ARCHIVO DE SALIDA ESPERADO
+- assets/ana_voz.mp3  (o .wav)
